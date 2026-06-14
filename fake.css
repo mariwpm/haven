@@ -213,3 +213,62 @@
   pointer-events: none;
   padding: 0 1rem;
 }
+
+.cover-note-form {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 14px;
+  background: var(--cover-surface);
+  border: 1px solid var(--cover-border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.cover-note-input,
+.cover-note-textarea {
+  width: 100%;
+  padding: 0.75rem 0.875rem;
+  border-radius: 10px;
+  border: 1px solid var(--cover-border);
+  background: var(--cover-surface-2);
+  color: var(--cover-text);
+  font-family: inherit;
+  font-size: 0.9375rem;
+  outline: none;
+  resize: vertical;
+}
+
+.cover-note-input:focus,
+.cover-note-textarea:focus {
+  border-color: var(--cover-accent-soft);
+}
+
+.cover-note-form-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cover-form-btn {
+  padding: 0.625rem 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--cover-border);
+  background: var(--cover-surface-2);
+  color: var(--cover-text);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cover-form-btn-primary {
+  background: var(--cover-accent);
+  color: #fff;
+  border-color: transparent;
+}
+
+.cover-note-empty {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--cover-muted);
+  font-size: 0.875rem;
+}
